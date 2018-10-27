@@ -17,7 +17,7 @@ class TTTT {
     Listener o = new Listener(this);
 
     TTTT() {
-        JLabel bg = new JLabel(new ImageIcon(".//background.jpg"));
+        JLabel bg = new JLabel(new ImageIcon(".//images/background.jpg"));
         bg.setBounds(0, 0, 0, 735);
 
         l = new JLabel[101];
@@ -26,27 +26,27 @@ class TTTT {
 // Starting point
         m[1] = new JLabel();
         m[1].setBounds(140, 650, 20, 52);
-        m[1].setIcon(new ImageIcon(".//player2.png"));
+        m[1].setIcon(new ImageIcon(".//images/player2.png"));
         f.add(m[1]);
 
         m[2] = new JLabel();
         m[2].setBounds(70, 650, 20, 52);
-        m[2].setIcon(new ImageIcon(".//player1.png"));
+        m[2].setIcon(new ImageIcon(".//images/player1.png"));
         f.add(m[2]);
 
         m[4] = new JLabel();
         m[4].setBounds(5, 290, 20, 52);
-        m[4].setIcon(new ImageIcon(".//player2.png"));
+        m[4].setIcon(new ImageIcon(".//images/player2.png"));
         f.add(m[4]);
 
         m[5] = new JLabel();
         m[5].setBounds(5, 340, 20, 52);
-        m[5].setIcon(new ImageIcon(".//player1.png"));
+        m[5].setIcon(new ImageIcon(".//images/player1.png"));
         f.add(m[5]);
 
         m[3] = new JLabel();
         m[3].setBounds(50, 570, 150, 150);
-        m[3].setIcon(new ImageIcon(".//start.jpg"));
+        m[3].setIcon(new ImageIcon(".//images/start.jpg"));
         f.add(m[3]);
 
 //	Labels for Board boxes 100-90, 80-70, 60-50, 40-30, 20-10  
@@ -143,7 +143,7 @@ class TTTT {
 
         z = new JLabel();
         z.setBounds(0, 0, 200, 100);
-        z.setIcon(new ImageIcon(".//rms.jpg"));
+        z.setIcon(new ImageIcon(".//images/rms.jpg"));
         f.add(z);
 
         screen = new JTextField("Roll The Dice");
@@ -171,7 +171,7 @@ class TTTT {
         a3 = new JLabel();
         a3.setBounds(50, 400, 100, 100);
         a3.setText("");
-        a3.setIcon(new ImageIcon(".//dice.gif"));
+        a3.setIcon(new ImageIcon(".//images/dice.gif"));
 
         f.add(a3);
 
@@ -202,7 +202,7 @@ class TTTT {
         f.setLayout(null);
 
         start = new JButton();
-        start.setIcon(new ImageIcon(".//start.gif"));
+        start.setIcon(new ImageIcon(".//images/start.gif"));
         start.setBounds(50, 580, 150, 60);
         start.addActionListener(o);
         f.add(start);
@@ -210,7 +210,7 @@ class TTTT {
         reset = new JButton("reset");
         reset.addActionListener(o);
         reset.setBounds(40, 170, 120, 40);
-        reset.setIcon(new ImageIcon(".//reset.png"));
+        reset.setIcon(new ImageIcon(".//images/reset.png"));
         f.add(reset);
 
 // dices images 
